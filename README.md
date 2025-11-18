@@ -1,10 +1,13 @@
-# nanochat
+# Reasoning Nanochat
 
-![nanochat logo](dev/nanochat.png)
+In this repository, we build a reasoning Transformer model from Nanochat baseline. We would like to explore how to improve the reasoning capabilities of Nanochat by modifying the training data and model architecture. In this repository, we will compare results of different approaches such as:
+- Hierarchical Reasoning Model [arXiv](https://arxiv.org/abs/2506.21734) [github repo](https://github.com/sapientinc/HRM)
+- Tiny Recursive Model [arXiv](https://arxiv.org/abs/2510.04871) [github repo](https://github.com/SamsungSAILMontreal/TinyRecursiveModels)
 
-> The best ChatGPT that $100 can buy.
+## ToDo:
 
-This repo is a full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, hackable, dependency-lite codebase. nanochat is designed to run on a single 8XH100 node via scripts like [speedrun.sh](speedrun.sh), that run the entire pipeline start to end. This includes tokenization, pretraining, finetuning, evaluation, inference, and web serving over a simple UI so that you can talk to your own LLM just like ChatGPT. nanochat will become the capstone project of the course LLM101n being developed by Eureka Labs.
+- [ ] Add ARC-AGI dataset to the training data
+- [ ] Add HRM and TRM architectures for comparison
 
 ## Talk to it
 
